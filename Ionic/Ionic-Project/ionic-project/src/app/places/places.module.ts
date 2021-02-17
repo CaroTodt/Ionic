@@ -9,10 +9,10 @@ import { PlacesPageRoutingModule } from './places-routing.module';
 import { PlacesPage } from './places.page';
 import { Routes } from '@angular/router';
 
-const routes: Routes =[{
-  path:'',
-  component: PlacesPage
-}];
+// const routes: Routes =[{
+//   path:'',
+//   component: PlacesPage
+// }];
 
 @NgModule({
   imports: [
