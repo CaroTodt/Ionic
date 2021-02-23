@@ -6,7 +6,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { EditOfferPageRoutingModule } from './edit-offer-routing.module';
 
-import { EditOfferPage } from './edit-offer.page';
+import { EditOfferPage } from '././edit-offer.page';
 
 @NgModule({
   imports: [
