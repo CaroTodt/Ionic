@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {
@@ -73,7 +72,7 @@ export class PlaceDetailPage implements OnInit {
     this.modalCtrl
       .create({
         component: CreateBookingComponent,
-        componentProps: { selectedPlace: this.place }
+        componentProps: { selectedPlace: this.place, selectedMode: mode }
       })
       .then(modalEl => {
         modalEl.present();
@@ -87,4 +86,3 @@ export class PlaceDetailPage implements OnInit {
       });
   }
 }
-
