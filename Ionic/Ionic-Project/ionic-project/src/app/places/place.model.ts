@@ -13,4 +13,3 @@ export class Place {
     public location: PlaceLocation
   ) {}
 }
-  

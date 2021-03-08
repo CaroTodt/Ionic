@@ -104,4 +104,3 @@ export class MapModalComponent implements OnInit, AfterViewInit, OnDestroy {
     });
   }
 }
-
